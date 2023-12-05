@@ -16,6 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure-s_+a*8yh=pn^y_qh*v1_j&$4u^%q(6s#@74(g3zjo(**p&%=uh
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#'127.0.0.1', 'localhost'
 
 # Application definition
 
